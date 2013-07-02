@@ -15,7 +15,7 @@ public class WhichDay
     foo.add("Thursday");
     foo.add("Friday");
     foo.add("Saturday");
-    foo.add("Sunday");
+    foo.add("Sunday"); // Work
     for (String d : notOnThisDay)
       foo.remove(d);
     return foo.first();
